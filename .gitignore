@@ -1,0 +1,28 @@
+# Build artifacts
+*.o
+tecnicofs
+client/tecnicofs-client
+tests/test_state
+tests/test_operations
+
+# Test outputs
+tests/fixtures/
+tests/output/
+/tmp/output.txt
+
+# Socket files
+/tmp/client-*
+/tmp/*_socket*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Test input (optional - remove if you want to keep sample)
+test_input.txt
