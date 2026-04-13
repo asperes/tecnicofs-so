@@ -1,0 +1,26 @@
+# Apache Beam with GCP extras (Dataflow runner)
+apache-beam[gcp]==2.56.0
+
+# Google Cloud clients
+google-cloud-storage==2.16.0
+google-cloud-aiplatform==1.53.0
+google-cloud-secret-manager==2.20.0
+
+# Database
+psycopg2-binary==2.9.9
+pgvector==0.2.5
+SQLAlchemy==2.0.29
+
+# Document parsing
+pypdf==4.2.0
+python-docx==1.1.2
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# Text / NLP utilities
+langdetect==1.0.9
+tiktoken==0.7.0
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==8.3.0
